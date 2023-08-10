@@ -1,0 +1,22 @@
+﻿<Window x:Class="socketclientprac.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:socketclientprac"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="641">
+    <Grid Height="433" VerticalAlignment="Center" HorizontalAlignment="Left" Width="653">
+        <Label Content="Host Address:" HorizontalAlignment="Left" Margin="38,29,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ip_t" HorizontalAlignment="Left" Margin="159,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Height="20"/>
+        <TextBox x:Name="port_t" HorizontalAlignment="Left" Margin="347,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" Height="20"/>
+        <Button x:Name="btn_connect" Content="connect" HorizontalAlignment="Left" Margin="462,126,0,0" VerticalAlignment="Top" Click="connect_b_Click" Height="43" Width="126"/>
+        <Button Content="send" HorizontalAlignment="Left" Margin="462,190,0,0" VerticalAlignment="Top" Click="send_b_Click" Height="43" Width="126"/>
+        <TextBlock x:Name="testblock1" HorizontalAlignment="Left" Margin="40,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="278" Width="381"/>
+        <Label Content="user name:" HorizontalAlignment="Left" Margin="38,60,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="name_t" HorizontalAlignment="Left" Margin="159,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="message:" HorizontalAlignment="Left" Margin="38,84,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="message_t" HorizontalAlignment="Left" Margin="159,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
