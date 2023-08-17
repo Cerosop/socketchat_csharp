@@ -90,9 +90,11 @@ namespace socketprac
                     BroadcastMessage(name + $":{message1.content}", client);
                 }
                 
-                catch (SocketException)
+                catch (SocketException ex)
                 {
                     Console.WriteLine($"Client {clientName} has disconnected unexpectedly1.");
+
+                    Console.WriteLine(ex);
                     break;
                 }
             }
