@@ -1,7 +1,7 @@
 ## socketchat_csharp
 use socket to implement a chatroom by C#
 
-### 使用程式及技術
+### 使用語言及技術
 C#、socket
 
 ### 執行方法 
